@@ -1,129 +1,361 @@
 <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Hello Orang</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Blog</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page content-->
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-lg-8">
-                    <!-- Post content-->
-                    <article>
-                        <!-- Post header-->
-                        <header class="mb-4">
-                            <!-- Post title-->
-                            <h1 class="fw-bolder mb-1">Selamat Datang</h1>
-                            <!-- Post meta content-->
-                            <div class="text-muted fst-italic mb-2">Posted on January 1, 2021 by Start Bootstrap</div>
-                            <!-- Post categories-->
-                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>
-                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>
-                        </header>
-                        <!-- Preview image figure-->
-                        <figure class="mb-4"><img class="img-fluid rounded" src="assets/foto1.jpg" alt="..." /></figure>
-                        <!-- Post content-->
-                        <section class="mb-5">
-                            <p class="fs-5 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe.</p>
-                            <p class="fs-5 mb-4">The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                            <p class="fs-5 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
-                            <h2 class="fw-bolder mb-4 mt-5">I have odd cosmic thoughts every day</h2>
-                            <p class="fs-5 mb-4">For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested.</p>
-                            <p class="fs-5 mb-4">Venus has a runaway greenhouse effect. I kind of want to know what happened there because we're twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It's bone dry today. Something bad happened there as well.</p>
-                        </section>
-                    </article>
-                    <!-- Comments section-->
-                    <section class="mb-5">
-                        <div class="card bg-light">
-                            <div class="card-body">
-                                <!-- Comment form-->
-                                <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Join the discussion and leave a comment!"></textarea></form>
-                                <!-- Comment with nested comments-->
-                                <div class="d-flex mb-4">
-                                    <!-- Parent comment-->
-                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                    <div class="ms-3">
-                                        <div class="fw-bold">Commenter Name</div>
-                                        If you're going to lead a space frontier, it has to be government; it'll never be private enterprise. Because the space frontier is dangerous, and it's expensive, and it has unquantified risks.
-                                        <!-- Child comment 1-->
-                                        <div class="d-flex mt-4">
-                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                            <div class="ms-3">
-                                                <div class="fw-bold">Commenter Name</div>
-                                                And under those conditions, you cannot establish a capital-market evaluation of that enterprise. You can't get investors.
-                                            </div>
-                                        </div>
-                                        <!-- Child comment 2-->
-                                        <div class="d-flex mt-4">
-                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                            <div class="ms-3">
-                                                <div class="fw-bold">Commenter Name</div>
-                                                When you put money directly to a problem, it makes a good headline.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single comment-->
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
-                                    <div class="ms-3">
-                                        <div class="fw-bold">Commenter Name</div>
-                                        When I look at the universe and all the ways the universe wants to kill us, I find it hard to reconcile that with statements of beneficence.
-                                    </div>
-                                </div>
+		
+        <div class="colorlib-loader"></div>
+    
+        <div id="page">
+            <nav class="colorlib-nav" role="navigation">
+                <div class="top-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7 col-md-9">
+                                <div id="colorlib-logo"><a href="index.html">SKMSHOES</a></div>
                             </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- Side widgets-->
-                <div class="col-lg-4">
-                    <!-- Search widget-->
-                    <div class="card mb-4">
-                        <div class="card-header">Search</div>
-                        <div class="card-body">
-                            <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
-                                <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                            <div class="col-sm-5 col-md-3">
+                            <form action="#" class="search-wrap">
+                               <div class="form-group">
+                                  <input type="search" class="form-control search" placeholder="Search">
+                                  <button class="btn btn-primary submit-search text-center" type="submit"><i class="icon-search"></i></button>
+                               </div>
+                            </form>
+                         </div>
+                     </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-left menu-1">
+                                <ul>
+                                    <li class="<?= ($halaman_aktif == "home") ? "colorlib-active" : "" ?>"><a href="<?= base_url("") ?>">Home</a></li>
+                                    <li class="has-dropdown">
+                                        <a href="men.html">Pria</a>
+                                        <ul class="dropdown">
+                                            <li><a href="product-detail.html">Product Detail</a></li>
+                                            <li><a href="cart.html">Shopping Cart</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="order-complete.html">Order Complete</a></li>
+                                            <li><a href="add-to-wishlist.html">Wishlist</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="women.html">WANITA</a></li>
+                                    <li class="<?= ($halaman_aktif == "about") ? "colorlib-active" : "" ?>"><a href="<?= base_url("/home/about") ?>">About</></li>
+                                    <li><a href="contact.html">Kontak</a></li>
+                                    <li class="cart"><a href="cart.html"><i class="icon-shopping-cart"></i> Cart [0]</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Categories widget-->
-                    <div class="card mb-4">
-                        <div class="card-header">Categories</div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Web Design</a></li>
-                                        <li><a href="#!">HTML</a></li>
-                                        <li><a href="#!">Freebies</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">JavaScript</a></li>
-                                        <li><a href="#!">CSS</a></li>
-                                        <li><a href="#!">Tutorials</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                </div>
+                </div>
+            </nav>
+            <aside id="colorlib-hero">
+                <div class="flexslider">
+                    <ul class="slides">
+                       <li style="background-image: url(./assets/images/bg1.png);">
+                           <div class="overlay"></div>
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-6 offset-sm-3 text-center slider-text">
+                                       <div class="slider-text-inner">
+                                           <div class="desc">
+                                               <h1 class="head-1">Sepatu</h1>
+                                               <h2 class="head-2">Pria & Wanita</h2>
+                                               <h2 class="head-3"></h2>
+                                               <p class="category"><span>Model Terkini</span></p>
+                                               <p><a href="#" class="btn btn-primary">Shop Collection</a></p>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </li>
+                       <li style="background-image: url(./assets/images/bg2.png);">
+                           <div class="overlay"></div>
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-6 offset-sm-3 text-center slider-text">
+                                       <div class="slider-text-inner">
+                                           <div class="desc">
+                                               <h1 class="head-1">Diskon</h1>
+                                               <h2 class="head-2">Sampai dengan</h2>
+                                               <h2 class="head-3"><strong class="font-weight-bold">50%</strong></h2>
+                                               <p class="category"><span></span></p>
+                                               <p><a href="#" class="btn btn-primary">Shop Collection</a></p>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </li>
+                       <li style="background-image: url(./assets/images/bg3.png);">
+                           <div class="overlay"></div>
+                           <div class="container-fluid">
+                               <div class="row">
+                                   <div class="col-sm-6 offset-sm-3 text-center slider-text">
+                                       <div class="slider-text-inner">
+                                           <div class="desc">
+                                               <h1 class="head-1">Produk</h1>
+                                               <h2 class="head-2">Terbaru</h2>
+                                               <h2 class="head-3">Bangga Produk Lokal<strong class="font-weight-bold"></strong></h2>
+                                               <p class="category"><span></span></p>
+                                               <p><a href="#" class="btn btn-primary">Shop Collection</a></p>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </li>
+                      </ul>
+                  </div>
+            </aside>
+            <div class="colorlib-intro">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h2 class="intro">Selamat datang di toko resmi kami SKMSHOES Cintai Produk Lokal Indonesia</h2>
                         </div>
-                    </div>
-                    <!-- Side widget-->
-                    <div class="card mb-4">
-                        <div class="card-header">Side Widget</div>
-                        <div class="card-body">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="colorlib-product">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 text-center">
+                            <div class="featured">
+                                <a href="#" class="featured-img" style="background-image: url(./assets/images/men.jpg);"></a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Koleksi Pria</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <div class="featured">
+                                <a href="#" class="featured-img" style="background-image: url(./assets/images/women.jpg);"></a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Koleksi Wanita</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="colorlib-product">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 offset-sm-2 text-center colorlib-heading">
+                            <h2>Best Sellers</h2>
+                        </div>
+                    </div>
+                    <div class="row row-pb-md">
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-1.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Ventela 70s LC Gum Sol (Unisex) Natural/Gum</a></h2>
+                                    <span class="price">Rp 249.800</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-2.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Ventela BTS 70s Low Glossy Cream/Natural
+                                    </a></h2>
+                                    <span class="price">Rp 239.800</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-3.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Ventela BTS 70s Low Glossy White/Natural</a></h2>
+                                    <span class="price">Rp 239.800</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-4.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Ventela BTS 70’s LC Glossy Unisex 1 Black/White</a></h2>
+                                    <span class="price">Rp 239.800</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-5.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Ventela Basic Low Black/Natural</a></h2>
+                                    <span class="price">Rp 189.800</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-6.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Ventela Public LC Unisex Black/Natural</a></h2>
+                                    <span class="price">Rp 249.800</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-7.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Ventela X NTL Hard13 – Noir High</a></h2>
+                                    <span class="price">Rp 469.800</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-8.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Warrior Sparta Rainbow High Black</a></h2>
+                                    <span class="price">Rp 219.900</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-9.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Warrior Slip On Arthur Black White</a></h2>
+                                    <span class="price">Rp 169.900</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-10.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Warrior Slip On Avatar 2.0 Black</a></h2>
+                                    <span class="price">Rp 179.900</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-11.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Warrior Slip On Avatar 2.0 White</a></h2>
+                                    <span class="price">Rp 179.900</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-12.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Warrior Slip On Arthur All White</a></h2>
+                                    <span class="price">Rp 169.900</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-13.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Kodachi 8172 Putih Navy Merah</a></h2>
+                                    <span class="price">Rp 109.900</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-14.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Patrobas Ivan Low Black White</a></h2>
+                                    <span class="price">Rp 239.900</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-15.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Johnson Galaxy Low Black White</a></h2>
+                                    <span class="price">Rp 280.000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-4 text-center">
+                            <div class="product-entry border">
+                                <a href="#" class="prod-img">
+                                    <img src="./assets/images/item-16.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+                                </a>
+                                <div class="desc">
+                                    <h2><a href="#">Sepatu Johnson Astro Low Black White</a></h2>
+                                    <span class="price">Rp 100.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p><a href="#" class="btn btn-primary btn-lg">Shop All Products</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="colorlib-partner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
+                            <h2>Partner Terpercaya</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col partner-col text-center">
+                            <img src="./assets/images/brand-1.png" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                        </div>
+                        <div class="col partner-col text-center">
+                            <img src="./assets/images/brand-2.png" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                        </div>
+                        <div class="col partner-col text-center">
+                            <img src="./assets/images/brand-3.png" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                        </div>
+                        <div class="col partner-col text-center">
+                            <img src="./assets/images/brand-4.png" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                        </div>
+                        <div class="col partner-col text-center">
+                            <img src="./assets/images/brand-5.png" class="img-fluid" alt="Free html4 bootstrap 4 template">
+                        </div>
+                    </div>
+                </div>
+            </div>

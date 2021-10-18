@@ -1,10 +1,108 @@
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="./assets/js/scripts.js"></script>
-    </body>
+<footer id="colorlib-footer" role="contentinfo">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col footer-col colorlib-widget">
+						<h4>About Footwear</h4>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+						<p>
+							<ul class="colorlib-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-linkedin"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col footer-col colorlib-widget">
+						<h4>Customer Care</h4>
+						<p>
+							<ul class="colorlib-footer-links">
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Returns/Exchange</a></li>
+								<li><a href="#">Gift Voucher</a></li>
+								<li><a href="#">Wishlist</a></li>
+								<li><a href="#">Special</a></li>
+								<li><a href="#">Customer Services</a></li>
+								<li><a href="#">Site maps</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col footer-col colorlib-widget">
+						<h4>Information</h4>
+						<p>
+							<ul class="colorlib-footer-links">
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Delivery Information</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Support</a></li>
+								<li><a href="#">Order Tracking</a></li>
+							</ul>
+						</p>
+					</div>
+
+					<div class="col footer-col">
+						<h4>News</h4>
+						<ul class="colorlib-footer-links">
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Exhibitions</a></li>
+						</ul>
+					</div>
+
+					<div class="col footer-col">
+						<h4>Contact Information</h4>
+						<ul class="colorlib-footer-links">
+							<li>Jl Imam  Bonjol, <br> Suite 721 New York NY 10016</li>
+							<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
+							<li><a href="mailto:info@yoursite.com">info@skmshoes.com</a></li>
+							<li><a href="#">yoursite.com</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copy">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<p>
+							<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span> 
+							<span class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> , <a href="http://pexels.com/" target="_blank">Pexels.com</a></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="ion-ios-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="<?= base_url() ?>/assets/js/jquery.min.js"></script>
+   <!-- popper -->
+   <script src="<?= base_url() ?>/assets/js/popper.min.js"></script>
+   <!-- bootstrap 4.1 -->
+   <script src="<?= base_url() ?>/assets/js/bootstrap.min.js"></script>
+   <!-- jQuery easing -->
+   <script src="<?= base_url() ?>/assets/js/jquery.easing.1.3.js"></script>
+	<!-- Waypoints -->
+	<script src="<?= base_url() ?>/assets/js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="<?= base_url() ?>/assets/js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="<?= base_url() ?>/assets/js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="<?= base_url() ?>/assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="<?= base_url() ?>/assets/js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="<?= base_url() ?>/assets/js/bootstrap-datepicker.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="<?= base_url() ?>/assets/js/jquery.stellar.min.js"></script>
+	<!-- Main -->
+	<script src="<?= base_url() ?>/assets/js/main.js"></script>
+
+	</body>
 </html>
+
