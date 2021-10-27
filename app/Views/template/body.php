@@ -24,7 +24,7 @@
                                 <ul>
                                     <li class="<?= ($halaman_aktif == "home") ? "colorlib-active" : "" ?>"><a href="<?= base_url("") ?>">Home</a></li>
                                     <li class="has-dropdown">
-                                        <a href="men.html">Pria</a>
+                                        <a href="pria.html">Pria</a>
                                         <ul class="dropdown">
                                             <li><a href="product-detail.html">Product Detail</a></li>
                                             <li><a href="cart.html">Shopping Cart</a></li>
@@ -33,7 +33,7 @@
                                             <li><a href="add-to-wishlist.html">Wishlist</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="women.html">WANITA</a></li>
+                                    <li><a href="wanita.html">WANITA</a></li>
                                     <li class="<?= ($halaman_aktif == "about") ? "colorlib-active" : "" ?>"><a href="<?= base_url("/home/about") ?>">About</></li>
                                     <li><a href="contact.html">Kontak</a></li>
                                     <li class="cart"><a href="cart.html"><i class="icon-shopping-cart"></i> Cart [0]</a></li>
@@ -337,7 +337,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
-                            <h2>Partner Terpercaya</h2>
+                            <h2>Partner Tepercaya</h2>
                         </div>
                     </div>
                     <div class="row">
