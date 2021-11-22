@@ -31,6 +31,11 @@ class Barang extends Migration
                 'type' => 'INT',
                 'null' => true,
             ],
+            'barang_img'       => [
+                'type'       => 'VARCHAR',
+                'constraint' => '100',
+                'null' => true,
+            ],
     ]);
     $this->forge->addKey('barang_id', true);
     $this->forge->createTable('barang');
